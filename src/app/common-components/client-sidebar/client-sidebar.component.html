@@ -1,0 +1,67 @@
+<div class="container">
+  <div class="row item">
+    <div class="col">
+      <a href="#">
+        <fa-icon [icon]="faHome"></fa-icon>
+
+        {{ 'navbar.home' | translate }}
+      </a>
+    </div>
+
+
+  </div>
+  <div class="row item align-items-center">
+    <div class="col">
+      <a href="#">
+        <fa-icon [icon]="faUsers"></fa-icon>
+        {{ 'navbar.professionals' | translate }}
+      </a>
+    </div>
+    <div class="col-1" (click)="openDropDown('professionals','professionals-dropdown-icon')">
+      <div class="fa fa-chevron-up rotate" id="professionals-dropdown-icon"></div>
+
+
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="container sidenav-dropdown overflow-auto" id="professionals">
+    <app-user-list userType="professional"></app-user-list>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row item">
+    <div class="col">
+      <a href="#">
+        <fa-icon [icon]="faChartBar"></fa-icon>
+        {{ 'navbar.metrics' | translate }}
+      </a>
+    </div>
+
+  </div>
+  <div class="row item">
+    <div class="col">
+      <a href="#">
+        <fa-layers>
+          <fa-icon [icon]="faBell"></fa-icon>
+          <fa-layers-counter content="!"></fa-layers-counter>
+        </fa-layers>
+        {{ 'navbar.notifications' | translate }}
+      </a>
+    </div>
+
+
+  </div>
+  <div class="row item">
+    <div class="col">
+      <a href="#">
+        <fa-icon [icon]="faCog"></fa-icon>
+        {{ 'navbar.configuration' | translate }}
+      </a>
+    </div>
+
+  </div>
+</div>

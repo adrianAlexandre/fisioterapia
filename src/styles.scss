@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+// /* Importing Bootstrap SCSS file. */
+// @import '~bootstrap/scss/bootstrap';
+
+// /* Importing Bootstrap SCSS file. */
+// @import '~bootstrap/scss/bootstrap';
+@import '_colors';
+
+
+.small-button {
+  background-color: $secondary;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.full-width-button {
+  background-color: $secondary;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 0;
+
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}

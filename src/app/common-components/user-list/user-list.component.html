@@ -1,0 +1,23 @@
+<div class="container">
+  <div *ngFor='let in of counter(5) ;let i = index' class="row align-items-center">
+    <div class="col-2">
+      <img class="img-fluid rounded-circle"
+        src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="User">
+    </div>
+    <div class="col">
+      <h1>Fernando Jimenez</h1>
+      <p><b>fjimenez@gmail.com</b></p>
+      <p>Fisioterapeuta</p>
+    </div>
+  </div>
+
+  <div class="row align-items-center">
+    <div class="col" [ngSwitch]="userType">
+      <h1 *ngSwitchCase="'client'">{{ 'userList.addClient' | translate }}</h1>
+      <h1 *ngSwitchCase="'professional'">{{ 'userList.addProfessional' | translate }}</h1>
+    </div>
+    <div class="col-2">
+      <span class="fas fa-user-plus"></span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+@import '_colors';
+
+.banner {
+  font-size: 1.1em;
+  margin-top: 1em;
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, $secondary 35%, $secondary-gradient 100%);
+  color: white;
+  text-align: center;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 7em;
+}
+
+.banner .row {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.install-button {
+  margin-top: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: white;
+  color: $secondary;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+
+}

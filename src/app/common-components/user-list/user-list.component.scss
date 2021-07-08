@@ -1,0 +1,23 @@
+@import '_colors';
+
+.row {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-bottom: solid 1px $secondary;
+}
+
+.row p {
+  margin: 0;
+  font-size: 0.6em;
+
+}
+
+.row h1 {
+  font-size: 1em;
+  margin: 0;
+  color: $secondary;
+}
+
+span {
+  color: $secondary;
+}

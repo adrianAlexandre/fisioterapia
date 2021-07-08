@@ -1,0 +1,41 @@
+<div id="mySidenav" class="sidenav">
+  <div class="container-fluid sidenav-user-box ">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+
+
+    <div class="row justify-content-center  h-100 ">
+
+      <div class="col-5 text-center">
+
+        <img class="img-fluid rounded-circle"
+          src="https://st.depositphotos.com/1020341/4414/i/600/depositphotos_44145175-stock-photo-portrait-of-beautiful-young-woman.jpg"
+          alt="User">
+
+      </div>
+      <div class="col-7"></div>
+
+    </div>
+
+  </div>
+
+  <div [ngSwitch]="userType">
+    <app-client-sidebar *ngSwitchCase="'client'"></app-client-sidebar>
+    <app-professional-sidebar *ngSwitchCase="'professional'"></app-professional-sidebar>
+  </div>
+
+  <div class="bottom-box">
+    <app-download-banner></app-download-banner>
+    <div class="container">
+      <div class="row item">
+        <div class="col">
+          <a href="#">
+            <fa-icon [icon]="faSignOutAlt"></fa-icon>
+            {{ 'navbar.signOut' | translate }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>

@@ -1,0 +1,182 @@
+@import '_colors';
+
+/* The side navigation menu */
+.sidenav {
+
+  background: rgb(11, 160, 219);
+  background: linear-gradient(45deg, rgba(11, 160, 219, 1) 0%, rgba(122, 229, 130, 1) 100%);
+  height: 100%;
+  /* 100% Full-height */
+  width: 425;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: -10000px;
+  background-color: white;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 0px;
+  /* Place content 60px from the top */
+  transition: all 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+  -webkit-box-shadow: 3px 0px 5px -2px rgba(0, 0, 0, 0.30);
+  box-shadow: 3px 0px 5px -2px rgba(0, 0, 0, 0.30);
+
+
+}
+
+//Sidenav Scrollbar
+.sidenav::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* The navigation menu links */
+a {
+  padding: 0px;
+  padding-top: 5px;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: $font;
+  display: inline-block;
+  transition: 0.3s;
+  position: relative;
+}
+
+.row {
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+
+fa-icon {
+  color: $secondary;
+  font-size: 20px !important;
+  transition: 0.3s;
+
+}
+
+fa-counter {
+  margin-left: 0;
+}
+
+fa-layers-counter {
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 30px;
+  right: 0;
+}
+
+/* When you mouse over the navigation links, change their color */
+a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding-top: 0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+    max-width: 300px;
+
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+}
+
+.sidenav-user-box {
+  // background-color: white;
+  height: 11em;
+  background: url('../../../assets/images/sidebar-header.svg') no-repeat;
+  background-size: cover;
+  // border-radius: 0px 0px 30px 30px;
+}
+
+.sidenav-user-box img {
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.sidenav-dropdown {
+  max-height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  height: 0px;
+  padding: 0;
+  padding-right: 1em;
+}
+
+.item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+//Sidenav-dropdown Scrollbar
+.sidenav-dropdown::-webkit-scrollbar {
+  width: 10px;
+}
+
+.sidenav-dropdown::-webkit-scrollbar-thumb {
+  background: $secondary;
+  border-radius: 10px;
+  border: solid white 3px;
+
+}
+
+.sidenav-dropdown::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.0);
+
+}
+
+
+.rotate {
+  transition-duration: 3s;
+  transition-property: transform;
+}
+
+.rotate.down {
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+
+}
+
+.bottom-box {
+  margin-top: auto;
+}
+
+.profile-button {
+  padding-bottom: 0;
+
+  width: 80px;
+  margin: auto;
+  padding-top: 0;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: $secondary;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 7px;
+  font-size: 0.8em;
+
+}

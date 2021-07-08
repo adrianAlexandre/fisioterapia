@@ -1,0 +1,13 @@
+  <div class="row navButtons">
+    <div class="col-1">
+      <i *ngIf="timePeriodNumber > 0"></i>
+    </div>
+    <div class="col">
+      <p>{{timePeriod[timePeriodNumber].name}}</p>
+    </div>
+    <div class="col-1"></div>
+    <i *ngIf="timePeriodNumber < timePeriod.length"></i>
+  </div>
+  <div class="row">
+    <canvas id="myChart"></canvas>
+  </div>
