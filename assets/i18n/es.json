@@ -1,0 +1,24 @@
+{
+    "wellness":"Bienestar",
+    "navbar":{
+        "home":"Inicio",
+        "professionals":"Profesionales",
+        "clients":"Clientes",
+        "test":"Test",
+        "add_professional":"Añadir Profesional",
+        "metrics":"Métricas",
+        "notifications":"Notificaciones",
+        "configuration":"Configuración",
+        "download":"Descargar",
+        "downloadBanner":"Descargue la App ahora y empiece a disfrutar de todas sus ventajas!",
+        "signOut":"Cerrar Sesión"
+    },
+    "userList":{
+        "addClient":"Añadir Cliente",
+        "addProfessional":"Añadir Profesional"
+    },
+    "dailyTestPanel":{
+        "doTest":"Haga ya su test diario",
+        "weeklyStats":"Estadísticas Semanales"
+    }
+}
