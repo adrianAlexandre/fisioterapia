@@ -30,7 +30,7 @@ export class ChartComponent implements OnInit {
     console.log(this.canvas);
 
     this.bar_ctx = this.canvas.getContext('2d');
-    this.gradient = this.bar_ctx.createLinearGradient(0, 200, 0, 0);
+    this.gradient = this.bar_ctx.createLinearGradient(0, 170, 0, 0);
     this.gradient.addColorStop(0, 'rgba(122, 229, 130, 1)');
 
     this.gradient.addColorStop(1, 'rgba(11, 160, 219, 1)');
@@ -58,12 +58,17 @@ export class ChartComponent implements OnInit {
         },
         scales: {
           yAxes: [{
+            display: false,
+
             scaleLabel: {
               display: false
             },
             ticks: {
               beginAtZero: true
             }
+          }],
+          xAxes: [{
+            display: false,
           }]
         }
       }
@@ -112,6 +117,7 @@ export class ChartComponent implements OnInit {
     return labels;
   }
 
+
   getData(timePeriod: TimePeriod, isDetailed: boolean): number[] {
     let data: number[] = [];
     if (timePeriod.type != TimePeriodType.DAY && isDetailed) {
@@ -140,6 +146,24 @@ export class ChartComponent implements OnInit {
       data.push(timePeriod.value);
     }
     return data;
+  }
+
+  followingChart() {
+    if (this.timePeriodNumber + 1 <= this.timePeriod.length - 1) {
+      this.timePeriodNumber++;
+      this.updateChart();
+    }
+  }
+  previousChart() {
+    if (this.timePeriodNumber - 1 >= 0) {
+      this.timePeriodNumber--;
+      this.updateChart();
+    }
+
+  }
+  updateChart() {
+    this.bar_chart.data.datasets[0].data = this.getData(this.timePeriod[this.timePeriodNumber], this.isDetailed);
+    this.bar_chart.update();
   }
 
 

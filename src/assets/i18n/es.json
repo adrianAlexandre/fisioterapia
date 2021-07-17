@@ -1,4 +1,5 @@
 {
+    "wellness":"Bienestar",
     "navbar":{
         "home":"Inicio",
         "professionals":"Profesionales",
@@ -17,6 +18,7 @@
         "addProfessional":"Añadir Profesional"
     },
     "dailyTestPanel":{
-        "doTest":"Haga ya su test diario"
+        "doTest":"Haga ya su test diario",
+        "weeklyStats":"Estadísticas Semanales"
     }
 }

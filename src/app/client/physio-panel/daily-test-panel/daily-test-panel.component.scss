@@ -2,18 +2,77 @@
 
 .panel {
   background-color: white;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   border-radius: 20px;
-  padding: 20px;
-
-  max-width: 800px;
+  margin-right: 0;
+  margin-left: 0;
+  height: auto;
+  padding: 0;
+  max-width: 100%;
   -webkit-box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.20);
   box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.20);
 }
 
+.panel .row {
+  padding: 0;
+  margin: 0;
+  padding-right: 0 !important;
+}
 
+.col-12 {
+  padding-right: 0;
+  margin-right: 0;
+}
 
 button {
-  width: 100%;
+  width: 100em;
+  margin: auto;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  max-width: 95%;
+
+
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+
+.actual-wellness {
+  font-weight: bolder;
+  font-size: 4em;
+  display: block;
+
+}
+
+.button-row {
+  background-color: $primary;
+  margin: 0;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.actual-wellness-col {
+  background-color: white;
+
+}
+
+.label {
+  font-size: 1em !important;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .actual-wellness-col {
+    background-color: $primary;
+
+  }
+
+  .actual-wellness {
+    font-size: 2.5em;
+
+  }
 }
