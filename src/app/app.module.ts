@@ -23,6 +23,8 @@ import { PhysioPanelComponent } from './client/physio-panel/physio-panel.compone
 import { DailyTestPanelComponent } from './client/physio-panel/daily-test-panel/daily-test-panel.component';
 import { ChartsModule } from 'ng2-charts';
 import { ChartComponent } from './common-components/chart/chart.component';
+import { MedicalHistoryListComponent } from './client/physio-panel/medical-history-list/medical-history-list.component';
+import { DragScrollModule } from 'ngx-drag-scroll';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -45,7 +47,8 @@ export function createTranslateLoader(http: HttpClient) {
     UserDetailsComponent,
     PhysioPanelComponent,
     DailyTestPanelComponent,
-    ChartComponent
+    ChartComponent,
+    MedicalHistoryListComponent
   ],
   imports: [
     FormsModule,
@@ -61,6 +64,7 @@ export function createTranslateLoader(http: HttpClient) {
       registrationStrategy: 'registerWhenStable:30000'
     }),
     FontAwesomeModule,
+    DragScrollModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
