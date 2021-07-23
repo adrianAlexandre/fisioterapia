@@ -1,33 +1,35 @@
-  <div class="container-fluid panel">
-    <h1 class="text-center ">{{"dailyTestPanel.weeklyStats" | translate}}</h1>
+  <div class="container">
+    <div class="container-fluid panel">
+      <h1 class="text-center ">{{"dailyTestPanel.weeklyStats" | translate}}</h1>
 
-    <div class="row m-0 p-0">
-      <div class="col-md-8 col-12 m-0 p-0 pr-0">
-        <app-chart [timePeriod]="chartData" [isDetailed]="true"></app-chart>
+      <div class="row m-0 p-0">
+        <div class="col-md-8 col-12 m-0 p-0 pr-0">
+          <app-chart [timePeriod]="chartData" [isDetailed]="true"></app-chart>
 
-      </div>
-      <div class="col actual-wellness-col align-items-center">
-        <div class="d-flex align-items-center ">
-          <div class="actual-wellness text-center w-100">
-            {{getActualWellness()}} %
+        </div>
+        <div class="col actual-wellness-col align-items-center">
+          <div class="d-flex align-items-center ">
+            <div class="actual-wellness text-center w-100">
+              {{getActualWellness()}} %
+            </div>
           </div>
-        </div>
-        <div class="d-flex align-items-center ">
+          <div class="d-flex align-items-center ">
 
-          <div class="text-center w-100 label ">
-            {{'wellness' | translate}}
+            <div class="text-center w-100 label ">
+              {{'wellness' | translate}}
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
-    </div>
-    <div class="row button-row">
-      <div class="col-12">
-        <div class="d-flex align-items-center h-100 mb-3 ">
+      <div class="row button-row">
+        <div class="col-12">
+          <div class="d-flex align-items-center h-100 mb-3 ">
 
-          <button class="full-width-button">{{"dailyTestPanel.doTest" | translate}}</button>
+            <button class="full-width-button">{{"dailyTestPanel.doTest" | translate}}</button>
+          </div>
+
         </div>
-
       </div>
     </div>
   </div>

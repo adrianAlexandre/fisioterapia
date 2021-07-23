@@ -12,4 +12,13 @@ export class MedicalHistoryListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getScrollbarHidden(): boolean {
+    let isTouch = false;
+    if ("ontouchstart" in window || navigator.msMaxTouchPoints) {
+      isTouch = true;
+    } else {
+      isTouch = false;
+    }
+    return isTouch;
+  }
 }

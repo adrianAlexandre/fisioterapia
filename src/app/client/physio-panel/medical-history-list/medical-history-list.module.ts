@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MedicalHistoryListComponent } from './medical-history-list.component';
+import { SharedModule } from '../../../shared/shared.module';
 
 
 
@@ -8,7 +9,8 @@ import { MedicalHistoryListComponent } from './medical-history-list.component';
   declarations: [
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ]
 })
 export class MedicalHistoryListModule { }
