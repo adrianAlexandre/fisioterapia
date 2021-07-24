@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1627061758744,
+  "timestamp": 1627124188290,
   "index": "https://adrianalexandre.github.io/fisioterapia/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "https://adrianalexandre.github.io/fisioterapia/favicon.ico",
         "https://adrianalexandre.github.io/fisioterapia/index.html",
-        "https://adrianalexandre.github.io/fisioterapia/main.426f2cdda79656297353.js",
+        "https://adrianalexandre.github.io/fisioterapia/main.de4a2a60d2640478e834.js",
         "https://adrianalexandre.github.io/fisioterapia/manifest.webmanifest",
         "https://adrianalexandre.github.io/fisioterapia/polyfills.5851e6ac6a8655461f26.js",
         "https://adrianalexandre.github.io/fisioterapia/runtime.7b63b9fd40098a2e8207.js",
         "https://adrianalexandre.github.io/fisioterapia/scripts.5cc5ce16e2ea8e585ed7.js",
-        "https://adrianalexandre.github.io/fisioterapia/styles.ca1cefc8741ae73f6263.css"
+        "https://adrianalexandre.github.io/fisioterapia/styles.7a4f933fc303998c6a03.css"
       ],
       "patterns": []
     },
@@ -32,6 +32,7 @@
       "urls": [
         "https://adrianalexandre.github.io/fisioterapia/assets/i18n/en.json",
         "https://adrianalexandre.github.io/fisioterapia/assets/i18n/es.json",
+        "https://adrianalexandre.github.io/fisioterapia/assets/icons/common/injury.svg",
         "https://adrianalexandre.github.io/fisioterapia/assets/icons/common/menu-icon.svg",
         "https://adrianalexandre.github.io/fisioterapia/assets/icons/icon-128x128.png",
         "https://adrianalexandre.github.io/fisioterapia/assets/icons/icon-144x144.png",
@@ -67,7 +68,8 @@
   "dataGroups": [],
   "hashTable": {
     "https://adrianalexandre.github.io/fisioterapia/assets/i18n/en.json": "f1f1b5b0dbfe8fdb3e162251e38c71b131da3031",
-    "https://adrianalexandre.github.io/fisioterapia/assets/i18n/es.json": "3e924ebce43ce480ee44dec77d481ec79b574d98",
+    "https://adrianalexandre.github.io/fisioterapia/assets/i18n/es.json": "3cd5cd88073dac4fd3b202f99b7904d7a5f5f86d",
+    "https://adrianalexandre.github.io/fisioterapia/assets/icons/common/injury.svg": "b03c7a99f4dccfe3f349544728aa568dd78a4a1b",
     "https://adrianalexandre.github.io/fisioterapia/assets/icons/common/menu-icon.svg": "dc01e034f0a9c3637def0e4721e07adb92fee187",
     "https://adrianalexandre.github.io/fisioterapia/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://adrianalexandre.github.io/fisioterapia/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -96,14 +98,14 @@
     "https://adrianalexandre.github.io/fisioterapia/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "https://adrianalexandre.github.io/fisioterapia/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
     "https://adrianalexandre.github.io/fisioterapia/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://adrianalexandre.github.io/fisioterapia/index.html": "c6666f50451a9b06967b6ebd22ad7cf1328a586c",
-    "https://adrianalexandre.github.io/fisioterapia/main.426f2cdda79656297353.js": "e27cae847f2985703ca5dda2bba801c6d008d177",
+    "https://adrianalexandre.github.io/fisioterapia/index.html": "b23cbb0564f531174f412b3e821da894ff3a751b",
+    "https://adrianalexandre.github.io/fisioterapia/main.de4a2a60d2640478e834.js": "17d7a9eddf763501a6f6ac950cf27c66b7e790b9",
     "https://adrianalexandre.github.io/fisioterapia/manifest.webmanifest": "77627abbe31c53b64c07e46885c174ed22814346",
     "https://adrianalexandre.github.io/fisioterapia/polyfills.5851e6ac6a8655461f26.js": "587930b9b17d188b4b5cd9c4a2f5b0595f155fd7",
     "https://adrianalexandre.github.io/fisioterapia/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://adrianalexandre.github.io/fisioterapia/scripts.5cc5ce16e2ea8e585ed7.js": "37181cecebacbc96d2aeed20f300407d6edc0431",
     "https://adrianalexandre.github.io/fisioterapia/sidebar-header.f7554d7d2be71b517c92.svg": "8a02faae83fef42861b351a4600c8bb592a03f7d",
-    "https://adrianalexandre.github.io/fisioterapia/styles.ca1cefc8741ae73f6263.css": "d585910480e5464699de934d3e7dd078b3d966dd"
+    "https://adrianalexandre.github.io/fisioterapia/styles.7a4f933fc303998c6a03.css": "09794b45153c1706567b608cd196546e8b910f4d"
   },
   "navigationUrls": [
     {

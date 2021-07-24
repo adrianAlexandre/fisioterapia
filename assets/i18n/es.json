@@ -20,5 +20,12 @@
     "dailyTestPanel":{
         "doTest":"Haga ya su test diario",
         "weeklyStats":"Estadísticas Semanales"
+    },
+    "injuryCard":{
+        "initDate":"Fecha Inicio",
+        "severity":"Severidad",
+        "status": "Estado",
+        "notifyInjury":"Notificar Dolencia",
+        "view":"Ver mas"
     }
 }

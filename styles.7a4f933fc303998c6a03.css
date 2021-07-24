@@ -1,4 +1,4 @@
-@charset "UTF-8";.small-button{padding-top:0;padding-bottom:0}.full-width-button,.small-button{background-color:#000470;color:#fff}.full-width-button{width:100%;border-radius:10px;font-weight:700;border:0}h1{font-size:1.2em!important;font-weight:700!important}*{font-family:Montserrat,sans-serif}
+@charset "UTF-8";.small-button{border-radius:25px;border:0;padding:3px 1em}.full-width-button,.small-button{background-color:#000470;color:#fff}.full-width-button{width:100%;border-radius:10px;font-weight:700;border:0}h1{font-size:1.2em!important;font-weight:700!important}*{font-family:Montserrat,sans-serif}.circle-button-green,.circle-button-red{border-radius:50%;color:#fff;border:0;margin-left:1em}.circle-button-green{background-color:#7ae582}.circle-button-red{background-color:#dd2a2a}
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
